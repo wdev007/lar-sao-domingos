@@ -1,0 +1,18 @@
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 
+    "header"
+    "content";
+    /*background-color: blue;*/
+}
+
+header.header {
+    grid-area: header;
+}
+
+main.content {
+    grid-area: content;
+}
