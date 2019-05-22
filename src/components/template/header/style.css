@@ -1,0 +1,12 @@
+.header.navbar.navbar-light.bg-light {
+    background-color: #fff !important;
+}
+
+.group-link a, h1 {
+    margin: 10px;
+    color: orange;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
